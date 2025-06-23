@@ -72,4 +72,5 @@ const notebookdownloadButtonStyle = `px-5 py-[11px] mb-4 text-sm font-medium tex
 const bloglistFirstCardStyle = `lg:col-span-3 md:col-span-2 col-span-1 h-auto rounded-2xl bg-white/40 backdrop-blur-md shadow-lg overflow-hidden transition-transform hover:scale-[1.02] cursor-pointer flex md:flex-row flex-col md:mb-5`;
 
 // 📚 Pagination 스타일 누락 변수 추가
+const paginationStyle = `flex justify-center items-center gap-4 mt-20 mb-32`;
 const pageNumberListStyle = `flex items-center justify-center gap-1`;
