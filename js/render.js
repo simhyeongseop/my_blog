@@ -1,8 +1,3 @@
-const paginationStyle = "justify-center items-center gap-2 p-4";
-const pageNumberListStyle = "flex gap-1";
-const pageNumberStyle = "px-3 py-1 rounded-lg text-gray-600 hover:bg-gray-200 transition font-normal";
-const pageNumberActiveStyle = "bg-emerald-500 text-white font-bold";
-
 function initPagination(totalPage) {
   const pagination = document.getElementById("pagination");
   pagination.style.display = "flex";
