@@ -1,4 +1,3 @@
-// Tailwind 기반 스타일 클래스 정의
 const paginationStyle = "justify-center items-center gap-2 p-4";
 const pageNumberListStyle = "flex gap-1";
 const pageNumberStyle = "px-3 py-1 rounded-lg text-gray-600 hover:bg-gray-200 transition font-normal";
