@@ -1,4 +1,4 @@
-// 🧭 Menu
+// 🧭 Menu!
 const menuListStyle = `md:ml-10 text-base font-semibold text-emerald-900 hover:text-emerald-600 transition duration-200 backdrop-blur-sm bg-white/40 px-4 py-2 rounded-xl shadow-sm`;
 
 // 📱 Mobile Menu
