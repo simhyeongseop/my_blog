@@ -1,6 +1,3 @@
-export const pageNumberListStyle = `flex items-center justify-center gap-1`;
-
-
 // 🧭 Menu!
 const menuListStyle = `md:ml-10 text-base font-semibold text-emerald-900 hover:text-emerald-600 transition duration-200 backdrop-blur-sm bg-white/40 px-4 py-2 rounded-xl shadow-sm`;
 
@@ -91,3 +88,4 @@ const paginationStyle = `flex justify-center items-center gap-4 mt-20 mb-32`;
 const pageMoveButtonStyle = `p-3 rounded-full bg-white/60 shadow-md hover:bg-emerald-100 transition`;
 const pageNumberStyle = `w-10 h-10 flex items-center justify-center text-emerald-800 hover:text-white hover:bg-emerald-400 rounded-full transition`;
 const pageNumberActiveStyle = `bg-emerald-500 text-white font-bold`;
+const pageNumberListStyle = `flex items-center justify-center gap-1`;
