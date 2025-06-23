@@ -1,3 +1,5 @@
+// 수정함
+
 function initPagination(totalPage) {
   const pagination = document.getElementById("pagination");
   pagination.style.display = "flex";
