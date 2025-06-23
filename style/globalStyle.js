@@ -74,3 +74,6 @@ const bloglistFirstCardStyle = `lg:col-span-3 md:col-span-2 col-span-1 h-auto ro
 // 📚 Pagination 스타일 누락 변수 추가
 const paginationStyle = `flex justify-center items-center gap-4 mt-20 mb-32`;
 const pageNumberListStyle = `flex items-center justify-center gap-1`;
+
+// ⏩ Pagination Button
+const pageMoveButtonStyle = `px-4 py-2 rounded-lg text-emerald-800 hover:bg-emerald-100 transition font-semibold`;
