@@ -1,17 +1,9 @@
-// ❗이미 선언되어 있지 않은 경우에만 아래 추가하세요
-if (typeof pageMoveButtonStyle === 'undefined') {
-  var pageMoveButtonStyle = "px-4 py-2 rounded-lg text-emerald-800 hover:bg-emerald-100 transition font-semibold";
-}
-if (typeof pageNumberStyle === 'undefined') {
-  var pageNumberStyle = "mx-1 px-3 py-2 text-sm text-gray-600 bg-white rounded-lg hover:bg-emerald-100";
-}
-if (typeof pageNumberListStyle === 'undefined') {
-  var pageNumberListStyle = "flex space-x-2";
-}
-if (typeof pageNumberActiveStyle === 'undefined') {
-  var pageNumberActiveStyle = "font-bold underline text-emerald-600";
-}
-
+// Tailwind 기반 스타일 클래스 정의
+const paginationStyle = "justify-center items-center gap-2 p-4";
+const pageMoveButtonStyle = "px-4 py-2 rounded-lg text-emerald-800 hover:bg-emerald-100 transition font-semibold";
+const pageNumberListStyle = "flex gap-1";
+const pageNumberStyle = "px-3 py-1 rounded-lg text-gray-600 hover:bg-gray-200 transition font-normal";
+const pageNumberActiveStyle = "bg-emerald-500 text-white font-bold";
 
 function initPagination(totalPage) {
   const pagination = document.getElementById("pagination");
