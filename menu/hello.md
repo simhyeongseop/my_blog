@@ -1,5 +1,4 @@
-# hello
+# 소개글
 
-* hello world
-* hello world
-* hello world
+* 안녕하세요 충남대학교 재학 중인 심형섭입니다.
+* 컴퓨터융합학부를 전공 중입니다.
