@@ -231,3 +231,22 @@
   mask-repeat: no-repeat;
   mask-position: center center;
 }/*# sourceMappingURL=style.css.map */
+
+/* 1) #blog-title 내부 텍스트(글자)를 보이지 않게 */
+#blog-title {
+  font-size: 0 !important;
+  line-height: 0 !important;
+  position: relative;
+}
+
+/* 2) #blog-title에 ::before로 로고 배경 삽입 */
+#blog-title::before {
+  content: "";
+  display: block;
+  width: auto;
+  height: 3rem;               /* 원하는 높이로 조절 (예: 3rem) */
+  background: url("/img/blog-logo.png") no-repeat center;
+  background-size: contain;   /* 종횡비 유지 */
+  /* 중앙 정렬을 원하면 아래 두 줄 추가 */
+  margin: 0 auto;
+}
