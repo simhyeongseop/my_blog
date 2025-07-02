@@ -14,9 +14,6 @@
     <script src="./library/highlight_highlight.min.js"></script>
     <link rel="stylesheet" href="./library/highlight_ally-light.min.css" />
 
-    <!-- custom css -->
-    <link rel="stylesheet" href="style/style.css" />
-
     <!-- tailwind -->
     <script src="./library/tailwind-3.4.1.js"></script>
     <script>
@@ -40,6 +37,9 @@
       };
     </script>
     <!-- // tailwind -->
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style/style.css" />
 
     <style>
       @keyframes slideDown {
@@ -71,7 +71,7 @@
           <img  
             src="img/blog-logo.png"  
             alt="Sim Hyeong Seop Blog"  
-            class="h-24 max-h-10"   <!-- 높이 제한, 비율 유지 -->  
+            class="h-24 w-auto object-contain md:h-32 lg:h-40"  
           />  
           <span class="sr-only">심형섭 블로그</span>
         </h1>
@@ -146,7 +146,7 @@
     <section
       class="category-aside
             hidden md:flex flex-col fixed
-            top-50 right-8 overflow-y-auto w-fit h-fit
+            top-28 right-8 overflow-y-auto w-fit h-fit
             bg-transparent backdrop-blur-sm    /* 투명 + 블러 */
             border border-white/30             /* 연한 화이트 테두리 */
             rounded-xl p-4 shadow-2xl           /* 라운드 + 떠 있는 효과 */
