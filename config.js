@@ -6,6 +6,7 @@ const siteConfig = {
   mainColor: "#3498db", // 사이트의 주 색상
   textColor: "#333333", // 기본 텍스트 색상
   blogTitle: "심형섭의 개발 일지", // 블로그 제목
+  logoUrl: "img/blog-logo.png", // 블로그 로고
 };
 
 // 여러명의 저자가 글을 쓸 경우 프로필 설정, default는 0번째 사용자

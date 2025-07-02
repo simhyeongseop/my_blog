@@ -25,7 +25,13 @@ if (isLocal) {
 
   // 블로그 제목 설정
   const $blogTitle = document.getElementById("blog-title");
-  $blogTitle.innerText = siteConfig.blogTitle || defaultTitle;
+  $blogTitle.innerHTML = `
+    <img 
+      src="${siteConfig.logoUrl}" 
+      alt="${siteConfig.blogTitle}" 
+      class="h-12 w-auto object-contain md:h-16"
+    />
+  `;
 
   // 홈페이지 title을 제목으로 설정
   document.title = siteConfig.blogTitle || defaultTitle;
@@ -49,7 +55,13 @@ if (isLocal) {
 
   // 블로그 제목 설정
   const $blogTitle = document.getElementById("blog-title");
-  $blogTitle.innerText = siteConfig.blogTitle || defaultTitle;
+  $blogTitle.innerHTML = `
+    <img 
+      src="${siteConfig.logoUrl}" 
+      alt="${siteConfig.blogTitle}" 
+      class="h-12 w-auto object-contain md:h-16"
+    />
+  `;
 
   // 홈페이지 title을 제목으로 설정
   document.title = siteConfig.blogTitle || defaultTitle;
