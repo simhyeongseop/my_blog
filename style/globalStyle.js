@@ -3,6 +3,7 @@
 // 🧭 Menu
 const menuListStyle = `md:ml-10 text-base font-semibold text-emerald-900 hover:text-emerald-600 transition duration-200 backdrop-blur-sm bg-white/40 px-4 py-2 rounded-xl shadow-sm`;
 const mobileMenuStyle = `block py-4 px-6 text-emerald-800 hover:bg-emerald-50 rounded-lg`;
+const blogLogoStyle = `inline-block h-auto max-h-10 mr-4`;
 
 // 📝 Post Headers
 const posth1Style = `text-[40px] font-bold mb-4 mt-6 text-emerald-900 tracking-tight font-serif`;

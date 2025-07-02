@@ -68,7 +68,12 @@
           id="blog-title"
           class="md:text-2xl text-lg leading-6 mr-auto font-semibold text-gray-900 cursor-pointer"
         >
-          WENIVLOG
+          <img  
+            src="img/blog-logo.png"  
+            alt="Sim Hyeong Seop Blog"  
+            class="h-auto max-h-10"   <!-- 높이 제한, 비율 유지 -->  
+          />  
+          <span class="sr-only">심형섭 블로그</span>
         </h1>
         <!-- // 블로그 제목 영역 -->
 
@@ -139,7 +144,7 @@
 
     <!-- category 검색 영역 -->
     <section
-      class="category-aside hidden md:flex flex-col border border-graylv2 bg-white rounded-[10px] fixed top-24 right-8 overflow-y-auto w-fit h-fit"
+      class="category-aside hidden md:flex flex-col border border-graylv2 bg-white rounded-[10px] fixed mt-[4.75rem] right-8 overflow-y-auto w-fit h-fit"
     >
       <header class="flex items-center">
         <h2 class="aside-tit sr-only text-sm font-semibold ml-5">content</h2>
